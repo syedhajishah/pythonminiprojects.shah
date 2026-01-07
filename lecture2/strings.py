@@ -13,8 +13,9 @@ print(subjects)
 print(" hello \n dear \t syed haji shah") # \n new line \t tab space
 
 # string length functions
-
+print(len(subjects))
 length = len(subjects) # len() function use to find length of string
+print(length)
 
 # basic operation
 #1 concatenation on string  ( + operator)
@@ -64,4 +65,4 @@ age = int(input("Enter your age: "))
 formatted_str = f"My name is {name} and I am {age} years old." #f-string formatting
 print(formatted_str)    
 
-#6 Indexing and Slicing
+#6 Indexing
